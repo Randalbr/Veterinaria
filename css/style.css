@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.encabezado{
+    background-color:rgb(3,93,120);
+    width: 100%;
+    height: 90px;
+}
+.encabezado img{
+    width: 100px;
+    height: 90px;
+    float: left;
+}
+.encabezado h1{
+    margin: 25px 0px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    color: white;
+}
+.menu{
+    float: right;
+    width: auto;
+    height: 50px;
+    margin: 15px 30px;
+}
+.encabezado li{
+    list-style: none;
+    float: left;
+    padding: 0px 15px;
+    margin: 10px 0px;
+    }
+
+.encabezado li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.encabezado li:hover{
+    background-color:  rgb(41, 157, 175);
+    border-radius: 10px;
+}
+.cuerpo{
+    width: 100%; 
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.cuerpo img{
+    width: 100%;
+    height: 700px;
+}
+.informacion{
+    width: 600px;
+    height: auto;
+    top: 25%;
+    left: 60%;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.informacion button{
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+    border: 2px solid rgb(24,158,189);
+    text-decoration: none;
+    width: 300px;
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacion button:hover{
+    color: white;
+    border: 4px solid white;
+    background-color: rgb(42,145,180);
+    cursor: pointer;
+}
+.contd3{
+     width: 100%;
+     height: 1000px;
+}
+.onecuadro{
+    float: left;
+    height: 450px;
+    border: 1px solid black;
+    width: 710px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin: 20px 30px;
+    background-color:  rgb(42,145,180);
+    color: white;
+    font-size: 25px;
+}
+.onecuadro img{
+    border-radius: 20px 0px 0px 20px;
+    float: left;
+    width: 350px;
+    height: 450px;
+}
+.onecuadro button{
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+    border: 2px solid rgb(24,158,189);
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.onecuadro button:hover{
+    color: white;
+    border: 4px solid white;
+    background-color: rgb(42,145,180);
+    cursor: pointer;
+}
+.twocuadro{
+    float: right;
+    height: 450px;
+    border: 1px solid black;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin: 20px 30px;
+    background-color:  rgb(42,145,180);
+    color: white;
+    font-size: 25px;
+}
+.twocuadro img{
+    border-radius:20px 0px 0px 20px;
+    float: left;
+    width: 450px;
+    height: 450px;
+}
+.twocuadro button{
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+    border: 2px solid rgb(24,158,189);
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twocuadro button:hover{
+    color: white;
+    border: 4px solid white;
+    background-color: rgb(42,145,180);
+    cursor: pointer;
+}
+.threecuadro{
+    float: left;
+    height: 450px;
+    border: 1px solid black;
+    width: 1010px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin: 20px 350px;
+    background-color:  rgb(42,145,180);
+    color: white;
+    font-size: 25px;
+}
+.threecuadro img{
+    border-radius:20px 0px 0px 20px;
+    float: left;
+    width: 600px;
+    height: 450px;
+}
+.threecuadro button{
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+    border: 2px solid rgb(24,158,189);
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.threecuadro button:hover{
+    color: white;
+    border: 4px solid white;
+    background-color: rgb(42,145,180);
+    cursor: pointer;
+}
+.footerprin{
+    width: 100%;
+    background-color: rgb(3,93,120);
+    height: 400px;
+}
+.footer1{
+    width: 45%;
+    float: left;
+    margin: 40px 50px;
+    height: 300px;
+}
+.footer1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.footer1 nav li{
+    list-style: none;
+    padding: 10px;
+}
+.footer1 nav li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.footer2{
+    float: right;
+    margin: 35px 0px;
+}
